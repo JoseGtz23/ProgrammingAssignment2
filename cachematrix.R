@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Given a list of functions of the function makeCacheMatrix, this function
 ## print the inverted matrix and saves it in the list of functions created.
-## If it was used with the same list, it gives a message that indicates it.
+## If it was used with the same list, it gives a message that indicates it. 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
